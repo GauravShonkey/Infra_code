@@ -9,6 +9,7 @@ terraform {
     key                   = ""
     resource_group_name   = ""
     storage_account_name  = ""
+    use_azuread_auth = true
   }
 }
 
