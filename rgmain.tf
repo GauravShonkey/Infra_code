@@ -5,10 +5,10 @@ provider "azurerm" {
 }
 terraform {
   backend "azurerm" {
-    container_name         = "test"
-    key                   = "classic.tfstate"
-    resource_group_name   = "rgstate"
-    storage_account_name  = "storagestate2"
+    container_name         = ""
+    key                   = ""
+    resource_group_name   = ""
+    storage_account_name  = ""
   }
 }
 
